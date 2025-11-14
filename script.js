@@ -39,7 +39,7 @@ let timeRemaining = 30 * 60; // 30 minutes in seconds
             if (!missionActive) return;
             
             const enteredPassword = passwordInput.value.trim().toLowerCase();
-            const correctPassword = 'asclepios';
+            const correctPassword = 'asclepias';
             
             if (enteredPassword === correctPassword) {
                 missionSuccess();
