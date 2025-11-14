@@ -81,7 +81,7 @@ let timeRemaining = 30 * 60; // 30 minutes in seconds
             missionActive = false;
             clearInterval(timerInterval);
             
-            statusMessage.textContent = "Congratulations! Asclepias is a genus of plants, commonly known as milkweeds, and you just saved the astronauts' lives.";
+            statusMessage.textContent = "Asclepias is a genus of plants, commonly known as milkweeds, and btw you just saved the astronauts' lives.";
             statusMessage.className = "status-message success";
             statusMessage.style.display = "block";
             
